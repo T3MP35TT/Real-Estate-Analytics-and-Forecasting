@@ -1,0 +1,2 @@
+model,train_city_groups,test_city_groups,test_mae_lakhs,test_rmse_lakhs,test_r2
+tuned_selected_linear_regression,33,9,0.0007328928118601228,0.0008967661471755807,0.9999999999775365

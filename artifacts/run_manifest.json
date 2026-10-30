@@ -1,0 +1,72 @@
+{
+  "source_file": "india_housing_prices.csv",
+  "source_url": "https://www.kaggle.com/datasets/ankushpanday1/india-house-price-prediction",
+  "source_sha256": "b0032196fcf336799daf45f7fed16199ff62cf23717e6dee76911467fb1d6367",
+  "additional_source": {
+    "file": "data/processed/nhb_hpi_combined.csv",
+    "url": "https://residex.nhbonline.org.in/DashboardBY2018/DashboardBY2018",
+    "sha256": "93f72d2eb5e1554818ed091a9ece7a7feae0f9cfc820454279a8094fabe26319",
+    "used_for_training": true,
+    "note": "Used for rolling-origin city HPI forecasting; listing-level classifier and proxy-regression targets remain assumption-generated."
+  },
+  "cleaned_rows": 250000,
+  "classification_rows_with_known_year_built": 250000,
+  "regression_rows": 250000,
+  "cleaning_summary": {
+    "raw_rows": 250000,
+    "exact_duplicates_removed": 0,
+    "invalid_area_or_price_removed": 0,
+    "clean_rows": 250000,
+    "missing_values_by_column": {
+      "ID": 0,
+      "State": 0,
+      "City": 0,
+      "Locality": 0,
+      "Property_Type": 0,
+      "BHK": 0,
+      "Size_in_SqFt": 0,
+      "Price_in_Lakhs": 0,
+      "Price_per_SqFt": 0,
+      "Year_Built": 0,
+      "Furnished_Status": 0,
+      "Floor_No": 0,
+      "Total_Floors": 0,
+      "Age_of_Property": 0,
+      "Nearby_Schools": 0,
+      "Nearby_Hospitals": 0,
+      "Public_Transport_Accessibility": 0,
+      "Parking_Space": 0,
+      "Security": 0,
+      "Amenities": 0,
+      "Facing": 0,
+      "Owner_Type": 0,
+      "Availability_Status": 0,
+      "Price_per_SqFt_Thousands": 0,
+      "School_Density_Score": 0,
+      "Hospital_Density_Score": 0,
+      "Parking_Space_Binary": 0,
+      "Security_Binary": 0,
+      "Annual_Appreciation_Proxy": 0,
+      "Good_Investment": 0,
+      "Price_After_5Y_Proxy": 0,
+      "Investment_Return_Proxy": 0
+    }
+  },
+  "python_version": "3.14.7",
+  "package_versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "mlflow": "3.17.2",
+    "joblib": "1.6.0"
+  },
+  "random_state": 42,
+  "assumptions": {
+    "reference_year": 2026,
+    "annual_appreciation": 0.06,
+    "age_depreciation_per_year": 0.002,
+    "good_investment_threshold": 0.04,
+    "forecast_years": 5
+  }
+}

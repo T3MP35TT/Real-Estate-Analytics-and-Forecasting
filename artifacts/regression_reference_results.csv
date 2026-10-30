@@ -1,0 +1,3 @@
+reference,evaluation_split,rows,mae_lakhs,rmse_lakhs,r2
+known_formula_baseline,selection_sample; not cross-validated,10000,0.0,0.0,1.0
+known_formula_baseline,held-out cities,52250,0.0,0.0,1.0

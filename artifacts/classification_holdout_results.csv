@@ -1,0 +1,2 @@
+model,train_city_groups,test_city_groups,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc
+tuned_selected_logistic_regression,33,9,0.5071578947368421,0.20829266388162263,0.4936158401184308,0.292962851102386,0.5009547602061879
