@@ -1,0 +1,19 @@
+{
+  "method": "theta",
+  "horizon_quarters": 20,
+  "selection_metric": "lowest mean absolute percentage error across rolling-origin CV",
+  "cv_mape_percent": 15.098134673795856,
+  "holdout_metrics": {
+    "forecast_origins": 8,
+    "city_origin_forecasts": 224,
+    "mae_hpi_points": 28.02417582519081,
+    "rmse_hpi_points": 38.322633684622694,
+    "mape_percent": 16.63531418005246,
+    "naive_last_value_mae_hpi_points": 39.28933035714285,
+    "mae_skill_vs_last_value": 0.2867229965375071,
+    "directional_accuracy": 0.9017857142857143,
+    "fallback_count": 0,
+    "fallback_rate_percent": 0.0
+  },
+  "source_sha256": "93f72d2eb5e1554818ed091a9ece7a7feae0f9cfc820454279a8094fabe26319"
+}

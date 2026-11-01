@@ -1,0 +1,6 @@
+question,measure,estimate,p_value,context
+Does area track asking price?,Spearman rho,-0.002529215932284042,0.2060134384360191,Near 0 means weak monotonic association.
+How large are city price differences?,Kruskal epsilon-squared,2.5956757200400966e-05,0.22523653774026065,Largest city median gap is 2.32% from overall median.
+Do property types differ in asking price?,Kruskal epsilon-squared,1.3598070414435368e-05,0.06722309568580503,Small effect size means little practical separation.
+Do BHK groups differ in asking price?,Kruskal epsilon-squared,0.0,0.8882748081150559,Compare effect size with the segment counts.
+Do amenity counts track price per sq ft?,Spearman rho: schools / hospitals,"(np.float64(-0.002270065671290724), np.float64(-0.0017254182265310138))","(np.float64(0.2563633258830869), np.float64(0.38829943965829244))","Reported in school-count, hospital-count order."

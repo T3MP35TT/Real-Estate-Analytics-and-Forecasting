@@ -1,0 +1,3 @@
+reference,evaluation_split,rows,f1,roc_auc,accuracy
+target_rule_oracle,selection_sample; not cross-validated,10000,1.0,1.0,1.0
+target_rule_oracle,held-out cities,52250,1.0,1.0,1.0

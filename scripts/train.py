@@ -2,11 +2,14 @@
 
 Important: these targets are generated from rules, not observed investment or
 resale outcomes. Metrics measure reconstruction of those rules only.
+
+MLflow metadata is stored in the project-root SQLite database (mlflow.db).
 """
 import json
 import hashlib
 import platform
 import sys
+import time
 import warnings
 from importlib.metadata import version
 from pathlib import Path
@@ -39,6 +42,12 @@ from sklearn.model_selection import (
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
+
+# Persist MLflow experiment metadata in the project root. Model and report
+# files continue to be written to ARTIFACT_DIR / REPORT_DIR as before.
+MLFLOW_DB_PATH = PROJECT_ROOT / "mlflow.db"
+MLFLOW_TRACKING_URI = f"sqlite:///{MLFLOW_DB_PATH.as_posix()}"
+mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 
 from src.config import (
     ANNUAL_APPRECIATION_ASSUMPTION,
@@ -294,6 +303,7 @@ def _train_hpi_forecast():
     """Cross-validate city-index methods, score the temporal holdout, and refit."""
     if not HPI_PATH.exists():
         raise FileNotFoundError(f"Missing HPI data at {HPI_PATH}; run scripts/merge_nhb_hpi.py first.")
+    print(f"[HPI] Reading source: {HPI_PATH}", flush=True)
     frame = pd.read_csv(HPI_PATH)
     if "City" not in frame.columns:
         raise ValueError("HPI input must contain City and quarter month-year columns")
@@ -336,11 +346,31 @@ def _train_hpi_forecast():
     # Forecast each historical origin using only values available at that date.
     # Unstable candidates use an explicit last-value fallback, which is reported.
     evaluation_origins = list(cv_origins) + list(holdout_origins)
-    for origin in evaluation_origins:
+    total_origins = len(evaluation_origins)
+    total_methods = len(FORECAST_METHODS)
+    print(
+        f"[HPI] Prepared {len(values_by_city):,} cities and {len(dates):,} quarters; "
+        f"evaluating {total_origins} origins x {total_methods} methods "
+        f"({len(values_by_city) * total_origins * total_methods:,} city-method forecasts).",
+        flush=True,
+    )
+
+    for origin_idx, origin in enumerate(evaluation_origins, start=1):
         split = "cross_validation" if origin < holdout_start else "final_holdout"
+        origin_started = time.perf_counter()
         histories = {city: values[:origin + 1] for city, values in values_by_city.items()}
         forecasts_by_method = {}
-        for method in FORECAST_METHODS:
+        print(
+            f"[HPI] Origin {origin_idx}/{total_origins}: {dates[origin]:%b %Y} "
+            f"-> {dates[origin + HORIZON_QUARTERS]:%b %Y} [{split}]",
+            flush=True,
+        )
+        for method_idx, method in enumerate(FORECAST_METHODS, start=1):
+            method_started = time.perf_counter()
+            print(
+                f"    [HPI] Method {method_idx}/{total_methods}: {method} ...",
+                flush=True,
+            )
             if method in GLOBAL_FORECAST_METHODS:
                 forecasts_by_method[method] = _safe_global_forecast(histories, method)
             else:
@@ -356,6 +386,10 @@ def _train_hpi_forecast():
                         "fallback_reason": fallback_reason,
                     }
                 forecasts_by_method[method] = method_results
+            print(
+                f"    [HPI] Completed {method} in {time.perf_counter() - method_started:.1f}s",
+                flush=True,
+            )
 
         for city, values in sorted(values_by_city.items()):
             history = histories[city]
@@ -375,6 +409,13 @@ def _train_hpi_forecast():
                     "fallback_method": result["fallback_method"],
                     "fallback_reason": result["fallback_reason"],
                 })
+        print(
+            f"[HPI] Finished origin {origin_idx}/{total_origins} "
+            f"in {time.perf_counter() - origin_started:.1f}s; "
+            f"rows collected: {len(predictions):,}.",
+            flush=True,
+        )
+    print("[HPI] Building cross-validation and holdout summaries...", flush=True)
     prediction_table = pd.DataFrame(predictions)
     cv = prediction_table[prediction_table["split"] == "cross_validation"]
     holdout = prediction_table[prediction_table["split"] == "final_holdout"]
@@ -391,6 +432,13 @@ def _train_hpi_forecast():
     cv_table["selection_eligible"] = cv_table["fallback_rate_percent"] <= reliability_threshold
     cv_table = cv_table.sort_values(["mape_percent", "mae_hpi_points"]).reset_index(drop=True)
     selected = str(selection_pool.sort_values(["mape_percent", "mae_hpi_points"]).iloc[0]["method"])
+    selected_cv_row = cv_table.loc[cv_table["method"] == selected].iloc[0]
+    print(
+        f"[HPI] Selected method: {selected} | "
+        f"CV MAPE: {selected_cv_row['mape_percent']:.2f}% | "
+        f"fallback rate: {selected_cv_row['fallback_rate_percent']:.2f}%",
+        flush=True,
+    )
     holdout_selected = holdout[holdout["method"] == selected]
     holdout_metrics = _hpi_backtest_metrics(holdout_selected)
 
@@ -689,9 +737,20 @@ def _classification_benchmark(
                            "selection_metric": "mean 5-fold CV F1",
                            **{f"best_{key}": str(value) for key, value in tuning_search.best_params_.items()}})
         mlflow.log_metrics({f"holdout_{k}": float(v) for k, v in best_metrics["holdout"].items()})
-        # The fitted pipeline is already saved with joblib above. Keep MLflow
-        # focused on parameters and metrics; tree models may require explicit
-        # skops trust configuration to serialize as MLflow model artifacts.
+        # Log the saved joblib pipeline and evaluation tables as run artifacts.
+        classification_artifacts = [
+            "classifier.joblib",
+            "classification_cv_results.csv",
+            "classification_tuning_results.csv",
+            "classification_holdout_results.csv",
+            "classification_reference_results.csv",
+            "classifier_importance.csv",
+            "classification_segment_metrics.csv",
+        ]
+        for filename in classification_artifacts:
+            artifact_path = ARTIFACT_DIR / filename
+            if artifact_path.exists():
+                mlflow.log_artifact(str(artifact_path), artifact_path="classification")
     return best_metrics
 
 
@@ -813,24 +872,84 @@ def _regression_benchmark(X_train, y_train, X_test, y_test):
                            **{f"best_{key}": str(value) for key, value in tuning_search.best_params_.items()}})
         mlflow.log_metrics({f"holdout_{k}": float(v)
                             for k, v in best_metrics["holdout"].items()})
+        regression_artifacts = [
+            "regression_benchmark.joblib",
+            "regression_cv_results.csv",
+            "regression_tuning_results.csv",
+            "regression_holdout_results.csv",
+            "regression_reference_results.csv",
+            "regressor_importance.csv",
+            "regression_segment_metrics.csv",
+        ]
+        for filename in regression_artifacts:
+            artifact_path = ARTIFACT_DIR / filename
+            if artifact_path.exists():
+                mlflow.log_artifact(str(artifact_path), artifact_path="regression")
     return best_metrics
 
 
 def main():
     warnings.filterwarnings("ignore", category=UserWarning)
     ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Create/select the experiment before running any training stage.
+    mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+    mlflow.set_experiment("real-estate-investment-advisor")
+    print(f"MLflow tracking URI: {MLFLOW_TRACKING_URI}", flush=True)
+    print(f"MLflow database: {MLFLOW_DB_PATH}", flush=True)
+
     print("Training and validating the five-year NHB city HPI forecast...", flush=True)
-    hpi_forecast = _train_hpi_forecast()
+    hpi_started = time.perf_counter()
+    with mlflow.start_run(run_name="hpi_forecast_validation"):
+        hpi_forecast = _train_hpi_forecast()
+        cv_metrics = hpi_forecast["cross_validation"]["metrics_by_method"]
+        selected_cv = next(
+            row for row in cv_metrics
+            if row["method"] == hpi_forecast["selected_method"]
+        )
+        holdout_metrics = hpi_forecast["final_holdout"]["metrics"]
+        mlflow.log_params({
+            "task": "city_hpi_forecast",
+            "selected_method": hpi_forecast["selected_method"],
+            "horizon_quarters": HORIZON_QUARTERS,
+            "forecast_years": FORECAST_YEARS,
+            "holdout_origins": holdout_metrics["forecast_origins"],
+        })
+        mlflow.log_metrics({
+            "cv_mape_percent": float(selected_cv["mape_percent"]),
+            "cv_mae_hpi_points": float(selected_cv["mae_hpi_points"]),
+            "holdout_mape_percent": float(holdout_metrics["mape_percent"]),
+            "holdout_mae_hpi_points": float(holdout_metrics["mae_hpi_points"]),
+        })
+        hpi_artifacts = [
+            REPORT_DIR / "hpi_forecast_metrics.json",
+            REPORT_DIR / "hpi_forecast_cv_results.csv",
+            REPORT_DIR / "hpi_forecast_holdout_predictions.csv",
+            REPORT_DIR / "hpi_forecast_backtest_predictions.csv",
+            REPORT_DIR / "hpi_forecast_fallbacks.csv",
+            REPORT_DIR / "resale_value_scenario_backtest.csv",
+            REPORT_DIR / "resale_value_scenario_metrics.csv",
+            ARTIFACT_DIR / "hpi_forecast_by_city.csv",
+            ARTIFACT_DIR / "hpi_forecast_model.json",
+        ]
+        for artifact_file in hpi_artifacts:
+            if artifact_file.exists():
+                mlflow.log_artifact(str(artifact_file), artifact_path="hpi_forecast")
+
     print(
-        f"  Selected HPI method: {hpi_forecast['selected_method']} "
-        f"(CV MAPE {hpi_forecast['cross_validation']['metrics_by_method'][0]['mape_percent']:.1f}%; "
-        f"holdout MAPE {hpi_forecast['final_holdout']['metrics']['mape_percent']:.1f}%)",
+        f"[HPI] Stage completed in {time.perf_counter() - hpi_started:.1f}s | "
+        f"selected: {hpi_forecast['selected_method']} | "
+        f"CV MAPE: {selected_cv['mape_percent']:.1f}% | "
+        f"holdout MAPE: {holdout_metrics['mape_percent']:.1f}%",
         flush=True,
     )
+
+    print("[DATA] Loading and preparing listing dataset...", flush=True)
     source_df = load_data()
     quality = source_df.attrs.get("quality", {})
     df = model_frame(source_df)
-    mlflow.set_experiment("real-estate-investment-advisor")
+    print(f"[DATA] Prepared {len(df):,} listing rows.", flush=True)
 
     cls_df = df.loc[df["Good_Investment"].notna()].copy()
     reg_df = df.loc[df["Price_After_5Y_Proxy"].notna()].copy()
@@ -841,7 +960,7 @@ def main():
     )
     rule_year_train = rule_year.loc[X_train.index]
     rule_year_test = rule_year.loc[X_test.index]
-    print("Comparing classifiers with 5-fold City-grouped CV and a City-group holdout...")
+    print("[CLASSIFICATION] Comparing candidates with 5-fold city-grouped CV and a city holdout...", flush=True)
     classification = _classification_benchmark(
         X_train, y_train, X_test, y_test, rule_year_train, rule_year_test
     )
@@ -850,7 +969,7 @@ def main():
     Xr_train, Xr_test, yr_train, yr_test = _group_holdout_split(
         X_reg, y_reg, groups=X_reg["City"]
     )
-    print("Comparing regressors with 5-fold City-grouped CV and a City-group holdout...")
+    print("[REGRESSION] Comparing candidates with 5-fold city-grouped CV and a city holdout...", flush=True)
     regression = _regression_benchmark(Xr_train, yr_train, Xr_test, yr_test)
 
     results = {
@@ -909,6 +1028,8 @@ def main():
     (ARTIFACT_DIR / "run_manifest.json").write_text(
         json.dumps(manifest, indent=2, default=float), encoding="utf-8"
     )
+    print("[DONE] Training, evaluation, artifacts and MLflow runs completed.", flush=True)
+    print(f"[DONE] MLflow database: {MLFLOW_DB_PATH}", flush=True)
     print(json.dumps(results, indent=2, default=float))
 
 

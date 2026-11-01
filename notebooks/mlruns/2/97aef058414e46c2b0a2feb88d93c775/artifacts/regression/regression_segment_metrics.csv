@@ -1,0 +1,13 @@
+task,segment,value,rows,f1,precision,recall,mae
+regression,City,Bhubaneswar,6323,,,,0.0006786194829745047
+regression,City,Cuttack,6358,,,,0.0006721466580043574
+regression,City,Gaya,6170,,,,0.0007470352728277017
+regression,City,Jaipur,6231,,,,0.0007174505095633079
+regression,City,Ludhiana,6295,,,,0.0006998990115332219
+regression,City,Mangalore,4063,,,,0.0009351445911606412
+regression,City,Nagpur,4160,,,,0.0006944915378038344
+regression,City,New Delhi,6306,,,,0.0006905618613955497
+regression,City,Vijayawada,6344,,,,0.0008197452036734593
+regression,Property_Type,Apartment,17275,,,,0.000734400522138635
+regression,Property_Type,Independent House,17363,,,,0.0007279793685972195
+regression,Property_Type,Villa,17612,,,,0.0007362579277079818

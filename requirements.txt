@@ -13,3 +13,4 @@ plotly>=5.18
 openpyxl
 statsmodels>=0.14.2
 plotly>=5.18.0
+mlflow

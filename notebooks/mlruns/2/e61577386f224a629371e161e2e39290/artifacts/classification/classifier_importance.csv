@@ -1,0 +1,906 @@
+feature,importance
+"categorical__Amenities_Playground, Garden, Clubhouse, Pool, Gym",0.4404578606855554
+"categorical__Amenities_Playground, Gym, Garden, Pool",0.42039576873720924
+"categorical__Amenities_Gym, Garden, Clubhouse, Pool, Playground",0.3865668345889871
+"categorical__Amenities_Gym, Pool, Clubhouse, Garden",0.3494348398110087
+"categorical__Amenities_Gym, Clubhouse, Playground, Garden, Pool",0.34864270922746987
+categorical__Locality_Locality_363,0.34433407571262076
+categorical__Locality_Locality_41,0.33677012716861804
+categorical__Locality_Locality_259,0.33290140523662487
+categorical__Locality_Locality_118,0.3236542444743401
+"categorical__Amenities_Gym, Garden, Pool, Playground, Clubhouse",0.32093385438997196
+categorical__Locality_Locality_60,0.302118577304877
+categorical__Locality_Locality_413,0.30168100198008646
+"categorical__Amenities_Garden, Playground, Gym, Pool",0.29635986837204015
+categorical__Locality_Locality_345,0.2958470057998699
+"categorical__Amenities_Clubhouse, Garden, Gym, Playground",0.2929405444826598
+categorical__Locality_Locality_491,0.2928526624715846
+categorical__Locality_Locality_441,0.2927695426563688
+categorical__Locality_Locality_487,0.28999240267005477
+categorical__Locality_Locality_370,0.28272571728996304
+"categorical__Amenities_Gym, Playground, Pool, Garden",0.27714651402660767
+categorical__Locality_Locality_212,0.27488160645968096
+"categorical__Amenities_Gym, Pool, Garden, Playground, Clubhouse",0.27308084902347574
+categorical__Locality_Locality_155,0.27258698925264424
+categorical__Locality_Locality_117,0.2690479139075332
+"categorical__Amenities_Garden, Clubhouse, Pool, Gym, Playground",0.2684362731815495
+categorical__Locality_Locality_274,0.26565257514777824
+categorical__Locality_Locality_110,0.26462714783318875
+"categorical__Amenities_Clubhouse, Gym, Playground, Pool, Garden",0.263990190753506
+categorical__Locality_Locality_281,0.26072199962386944
+categorical__Locality_Locality_147,0.2598332997074862
+"categorical__Amenities_Garden, Clubhouse, Playground, Pool, Gym",0.25844756843179545
+categorical__Locality_Locality_103,0.25657671325502834
+"categorical__Amenities_Gym, Playground, Garden, Pool",0.25567379553947894
+"categorical__Amenities_Pool, Clubhouse, Gym",0.25411143570781136
+categorical__Locality_Locality_206,0.2528591052266833
+"categorical__Amenities_Clubhouse, Gym, Garden",0.2507911944917351
+categorical__Locality_Locality_56,0.24849805559351393
+categorical__Locality_Locality_386,0.24846437451758924
+"categorical__Amenities_Playground, Garden, Pool, Clubhouse, Gym",0.2482601605294653
+"categorical__Amenities_Playground, Gym, Clubhouse, Garden, Pool",0.2457404536272838
+categorical__Locality_Locality_399,0.24409723411884268
+categorical__Locality_Locality_359,0.24407968346121905
+categorical__Locality_Locality_344,0.24274264477018845
+categorical__Locality_Locality_239,0.24207729674170386
+categorical__Locality_Locality_112,0.24179088033951157
+categorical__Locality_Locality_329,0.2400460685723461
+categorical__Locality_Locality_416,0.23976413570035626
+categorical__Locality_Locality_312,0.2393406667898529
+categorical__Locality_Locality_317,0.2380027799163157
+categorical__Locality_Locality_199,0.23726664212273818
+"categorical__Amenities_Gym, Garden, Pool, Clubhouse, Playground",0.23607123761911647
+categorical__Locality_Locality_497,0.23572894811653927
+categorical__Locality_Locality_445,0.2334817686844854
+"categorical__Amenities_Pool, Clubhouse, Garden, Playground, Gym",0.23330816201020152
+"categorical__Amenities_Pool, Gym, Clubhouse, Garden, Playground",0.23296029761224696
+categorical__Locality_Locality_4,0.232829194668944
+"categorical__Amenities_Pool, Garden, Gym, Playground",0.2297033538684183
+categorical__Locality_Locality_16,0.2284014316049186
+categorical__Locality_Locality_75,0.22440676491626618
+categorical__Locality_Locality_500,0.22100194370848414
+categorical__Locality_Locality_480,0.22061298921362904
+categorical__Locality_Locality_174,0.22057953581003126
+categorical__Locality_Locality_376,0.2186460775800652
+"categorical__Amenities_Pool, Gym, Clubhouse, Playground",0.2168430538539232
+"categorical__Amenities_Clubhouse, Playground, Gym, Garden, Pool",0.21588121353919315
+"categorical__Amenities_Pool, Playground, Clubhouse, Gym, Garden",0.21173655301399713
+categorical__Locality_Locality_90,0.21053510240799875
+categorical__Locality_Locality_350,0.20951403057952273
+"categorical__Amenities_Pool, Garden, Playground, Clubhouse",0.2090419572353709
+"categorical__Amenities_Garden, Pool, Playground, Clubhouse, Gym",0.20898887825928902
+categorical__Locality_Locality_47,0.2086461241418066
+categorical__Locality_Locality_132,0.20822721208878214
+"categorical__Amenities_Gym, Clubhouse, Playground, Pool, Garden",0.2082217854682047
+categorical__Locality_Locality_468,0.20785819195112093
+categorical__Locality_Locality_342,0.20770925427760892
+"categorical__Amenities_Gym, Clubhouse, Garden, Pool, Playground",0.20696177542106112
+"categorical__Amenities_Playground, Clubhouse, Pool, Garden",0.2031141028985066
+categorical__Locality_Locality_361,0.20224231102151113
+categorical__Locality_Locality_100,0.20196080414668782
+"categorical__Amenities_Gym, Clubhouse, Playground",0.20131823872510796
+"categorical__Amenities_Pool, Clubhouse, Garden, Gym, Playground",0.20111836177363496
+categorical__Locality_Locality_209,0.1996088824891835
+"categorical__Amenities_Playground, Pool, Garden, Gym",0.1991459842992465
+categorical__Locality_Locality_124,0.19897169516849714
+categorical__Locality_Locality_293,0.19887481822029654
+categorical__Locality_Locality_400,0.19771160525338738
+categorical__Locality_Locality_428,0.195391344752416
+categorical__Locality_Locality_443,0.1952427444250151
+categorical__Locality_Locality_95,0.19486346722908682
+categorical__Locality_Locality_263,0.19465218886766944
+categorical__Locality_Locality_306,0.19374917664730107
+"categorical__Amenities_Garden, Pool, Clubhouse",0.1936733980986759
+categorical__Locality_Locality_316,0.19333647471784687
+"categorical__Amenities_Gym, Clubhouse, Playground, Garden",0.19327715320790373
+"categorical__Amenities_Clubhouse, Pool, Playground, Gym",0.1931045122671957
+categorical__Locality_Locality_20,0.19122610023151418
+categorical__Locality_Locality_252,0.19087044039667822
+categorical__Locality_Locality_469,0.1906312821754597
+categorical__Locality_Locality_229,0.1904716697227474
+categorical__Locality_Locality_470,0.19019326643560433
+categorical__Locality_Locality_333,0.1890047772200953
+categorical__Locality_Locality_113,0.18868931836589592
+categorical__Locality_Locality_444,0.18825825946648955
+categorical__Locality_Locality_325,0.18807170317576835
+"categorical__Amenities_Playground, Garden, Clubhouse, Gym, Pool",0.18686650997426318
+categorical__Locality_Locality_412,0.18618298322046686
+categorical__Locality_Locality_34,0.1852428885740831
+categorical__Locality_Locality_251,0.18457833555659808
+categorical__Locality_Locality_320,0.18396651410519244
+"categorical__Amenities_Clubhouse, Pool, Gym, Garden, Playground",0.18349247364698804
+"categorical__Amenities_Playground, Pool, Garden, Clubhouse",0.18227783251431912
+categorical__Locality_Locality_99,0.18215291615958548
+"categorical__Amenities_Garden, Playground, Clubhouse, Pool, Gym",0.18203248210447265
+categorical__Locality_Locality_375,0.18133323374074053
+categorical__Locality_Locality_37,0.17990908387681098
+"categorical__Amenities_Garden, Gym, Clubhouse, Playground, Pool",0.17935556539213326
+"categorical__Amenities_Pool, Garden, Gym, Clubhouse",0.17895952860040745
+categorical__Locality_Locality_318,0.1773426280845818
+"categorical__Amenities_Playground, Pool, Clubhouse, Garden, Gym",0.1768390579640057
+categorical__Locality_Locality_233,0.17665044413621908
+categorical__Locality_Locality_462,0.17639674535419725
+categorical__Locality_Locality_46,0.17469782730860162
+categorical__Locality_Locality_54,0.1746259625633618
+categorical__Locality_Locality_484,0.1738069452578028
+"categorical__Amenities_Clubhouse, Pool, Garden, Playground",0.17293976146352116
+categorical__Locality_Locality_48,0.1726512430768841
+categorical__Locality_Locality_301,0.17227334254428275
+"categorical__Amenities_Pool, Gym, Clubhouse, Garden",0.17161957606975098
+categorical__Locality_Locality_49,0.1711106648853221
+"categorical__Amenities_Gym, Pool, Playground, Clubhouse",0.17090755355390921
+categorical__Locality_Locality_340,0.17070665304570984
+"categorical__Amenities_Clubhouse, Playground, Pool, Garden",0.17041413065294
+"categorical__Amenities_Gym, Playground, Garden, Clubhouse",0.17002155887806195
+categorical__Locality_Locality_367,0.16887802121587925
+"categorical__Amenities_Garden, Pool, Clubhouse, Playground",0.16874112558055232
+categorical__Locality_Locality_403,0.1672421072068048
+categorical__Locality_Locality_115,0.16655634313788695
+categorical__Locality_Locality_2,0.16654069224019458
+categorical__Locality_Locality_142,0.1664263084384712
+categorical__Locality_Locality_410,0.16629500062868963
+categorical__Locality_Locality_85,0.16580743693402253
+categorical__Locality_Locality_496,0.1651172736913563
+"categorical__Amenities_Pool, Clubhouse, Garden, Playground",0.1645624342333744
+"categorical__Amenities_Clubhouse, Garden, Playground, Gym, Pool",0.16442786840566342
+categorical__Locality_Locality_339,0.16414225927164666
+"categorical__Amenities_Gym, Clubhouse, Garden, Playground",0.16348287949012164
+"categorical__Amenities_Clubhouse, Gym, Pool, Garden",0.16336515015166514
+categorical__Locality_Locality_430,0.16248514469172579
+"categorical__Amenities_Playground, Clubhouse, Pool, Gym",0.16195670841481125
+"categorical__Amenities_Garden, Clubhouse, Playground",0.16113467416696625
+categorical__Locality_Locality_353,0.16080192459200832
+categorical__Locality_Locality_357,0.16054945140272064
+categorical__Locality_Locality_495,0.16013989150755628
+categorical__Locality_Locality_313,0.15959776110860568
+categorical__Locality_Locality_183,0.15914618468650302
+"categorical__Amenities_Gym, Playground, Clubhouse, Pool",0.15914315302594098
+"categorical__Amenities_Gym, Playground, Clubhouse",0.1585993107560372
+categorical__Locality_Locality_98,0.15762918677317686
+categorical__Locality_Locality_459,0.1569760276290152
+categorical__Locality_Locality_398,0.15587979793047702
+categorical__Locality_Locality_415,0.15559577316230597
+"categorical__Amenities_Playground, Clubhouse, Pool, Gym, Garden",0.15483075241487243
+"categorical__Amenities_Pool, Garden, Gym",0.1547988507848596
+categorical__Locality_Locality_87,0.1544257091303965
+categorical__Locality_Locality_494,0.15355449875874339
+"categorical__Amenities_Gym, Garden, Playground, Clubhouse",0.15344339041038055
+categorical__Locality_Locality_149,0.15290697270998255
+categorical__Locality_Locality_125,0.15227015745228298
+categorical__Locality_Locality_127,0.1520356806652687
+"categorical__Amenities_Gym, Garden, Playground, Clubhouse, Pool",0.15160144937970965
+"categorical__Amenities_Garden, Clubhouse, Pool",0.15124735069933576
+categorical__Locality_Locality_268,0.1511560933008239
+categorical__Locality_Locality_471,0.15064550757380615
+"categorical__Amenities_Garden, Playground, Gym, Clubhouse, Pool",0.1500199812612668
+categorical__Locality_Locality_368,0.1499455731182451
+categorical__Locality_Locality_257,0.14915624846987982
+"categorical__Amenities_Playground, Gym, Pool",0.14900537442593095
+"categorical__Amenities_Clubhouse, Pool, Garden, Gym",0.14862787142208475
+categorical__Locality_Locality_332,0.14845563557510438
+"categorical__Amenities_Playground, Clubhouse, Garden, Gym, Pool",0.14743416891392644
+"categorical__Amenities_Pool, Garden, Playground, Gym",0.14731958775575174
+"categorical__Amenities_Garden, Gym, Playground, Clubhouse, Pool",0.14690082373043303
+categorical__Locality_Locality_167,0.14655672256735866
+"categorical__Amenities_Clubhouse, Playground, Garden, Pool",0.14633572778730683
+"categorical__Amenities_Gym, Pool, Garden, Clubhouse",0.14514193189159708
+"categorical__Amenities_Garden, Clubhouse, Playground, Pool",0.14400480865985227
+"categorical__Amenities_Playground, Garden, Gym, Clubhouse",0.1433639208177299
+categorical__Locality_Locality_409,0.1433434553579645
+"categorical__Amenities_Garden, Gym, Pool, Clubhouse",0.14264979892284604
+categorical__Locality_Locality_136,0.14202179990339192
+"categorical__Amenities_Playground, Gym, Pool, Garden, Clubhouse",0.14148304438583575
+"categorical__Amenities_Clubhouse, Pool, Garden, Playground, Gym",0.14120471351494657
+categorical__Locality_Locality_433,0.1409020535976869
+"categorical__Amenities_Pool, Playground",0.14084583367110354
+categorical__Locality_Locality_146,0.14042080298048312
+categorical__Locality_Locality_384,0.1400807622043513
+"categorical__Amenities_Clubhouse, Pool, Playground, Garden",0.13981226305461697
+categorical__Locality_Locality_185,0.1395062646052074
+categorical__Locality_Locality_44,0.13882194827026545
+"categorical__Amenities_Gym, Pool, Playground, Garden",0.13829147592600877
+categorical__Locality_Locality_31,0.13814008066340075
+categorical__Locality_Locality_356,0.13800997777038193
+categorical__Locality_Locality_51,0.13771963199144197
+categorical__Locality_Locality_249,0.13753741704641886
+"categorical__Amenities_Gym, Garden, Playground",0.13750163813811314
+categorical__Locality_Locality_314,0.13746796727161298
+categorical__Locality_Locality_369,0.13702350450237058
+categorical__Locality_Locality_307,0.13665581620356995
+"categorical__Amenities_Pool, Gym, Playground, Garden",0.13661182142058834
+categorical__Locality_Locality_343,0.13603992644317103
+"categorical__Amenities_Garden, Playground, Gym, Pool, Clubhouse",0.1349280356387683
+categorical__Locality_Locality_88,0.1349254165398505
+categorical__Locality_Locality_435,0.13483827934315837
+categorical__Locality_Locality_473,0.13466878305315283
+categorical__Locality_Locality_175,0.134644402092514
+categorical__Locality_Locality_200,0.1345556969301864
+"categorical__Amenities_Clubhouse, Garden, Gym, Playground, Pool",0.1341893501198196
+"categorical__Amenities_Clubhouse, Pool, Gym, Garden",0.13407551382407562
+categorical__Locality_Locality_396,0.1336519076802542
+categorical__Locality_Locality_466,0.13359554207637994
+categorical__Locality_Locality_83,0.13351202423957814
+"categorical__Amenities_Pool, Clubhouse, Gym, Garden",0.13322498788954826
+categorical__Locality_Locality_292,0.13266558620990074
+"categorical__Amenities_Garden, Gym, Playground, Pool, Clubhouse",0.13213799134614193
+categorical__Locality_Locality_278,0.13183840316239887
+"categorical__Amenities_Clubhouse, Garden, Playground, Pool",0.13117153241528953
+categorical__Locality_Locality_388,0.13111874195028567
+categorical__Locality_Locality_79,0.13020773836345964
+categorical__Locality_Locality_130,0.1299150098095322
+"categorical__Amenities_Pool, Playground, Gym, Clubhouse, Garden",0.12988521645920442
+"categorical__Amenities_Playground, Gym",0.12973816721028286
+categorical__Locality_Locality_171,0.12937560482825458
+"categorical__Amenities_Garden, Gym, Pool, Playground",0.12929796180876757
+"categorical__Amenities_Pool, Clubhouse, Gym, Playground",0.12918824219078315
+categorical__Locality_Locality_256,0.12906831965369872
+categorical__Locality_Locality_80,0.12897291010606818
+categorical__Locality_Locality_447,0.12820349402067263
+categorical__Locality_Locality_63,0.1263051743103247
+"categorical__Amenities_Pool, Playground, Garden",0.1259832445915819
+"categorical__Amenities_Clubhouse, Gym, Garden, Pool",0.1256139655359169
+categorical__Locality_Locality_463,0.125442531443189
+categorical__Locality_Locality_331,0.1252859922418485
+categorical__Locality_Locality_402,0.1252746353468804
+"categorical__Amenities_Playground, Garden, Gym",0.12523001069964085
+categorical__Locality_Locality_247,0.1250662208581965
+categorical__Locality_Locality_107,0.12498823916754591
+categorical__Locality_Locality_337,0.12488492787426979
+"categorical__Amenities_Clubhouse, Playground, Pool, Gym, Garden",0.12479579413191748
+categorical__Locality_Locality_145,0.12430465783858456
+categorical__Locality_Locality_392,0.12428158409562735
+categorical__Locality_Locality_128,0.12343916817250929
+categorical__Locality_Locality_383,0.12253609527700257
+categorical__Locality_Locality_26,0.12241478699630048
+categorical__Locality_Locality_478,0.12198633645671096
+categorical__Locality_Locality_279,0.121267090006738
+categorical__Locality_Locality_111,0.12111670938758629
+categorical__Locality_Locality_157,0.12051514698848122
+"categorical__Amenities_Playground, Gym, Garden",0.11997632995878957
+categorical__Locality_Locality_355,0.11984737366163266
+"categorical__Amenities_Garden, Playground, Pool, Gym",0.11972566485076089
+"categorical__Amenities_Pool, Gym, Garden, Clubhouse",0.11966745876868047
+categorical__Locality_Locality_489,0.11954697426370138
+"categorical__Amenities_Playground, Garden, Clubhouse",0.11915996874902712
+categorical__Locality_Locality_258,0.11870529907158062
+categorical__Locality_Locality_133,0.11865387104668071
+"categorical__Amenities_Playground, Clubhouse, Garden, Pool, Gym",0.11832254235550968
+"categorical__Amenities_Clubhouse, Gym, Garden, Playground, Pool",0.1180523712757931
+"categorical__Amenities_Pool, Gym, Garden, Playground",0.11789132587780585
+categorical__Locality_Locality_203,0.11777022639969136
+"categorical__Amenities_Garden, Clubhouse, Pool, Gym",0.11772109340516171
+categorical__Locality_Locality_62,0.11765994087551425
+categorical__Locality_Locality_164,0.11746475836398294
+"categorical__Amenities_Gym, Playground, Pool, Clubhouse, Garden",0.11689350331406315
+categorical__Locality_Locality_449,0.11628936103888758
+categorical__Locality_Locality_425,0.11523034841178617
+categorical__Locality_Locality_429,0.11516769745477665
+"categorical__Amenities_Clubhouse, Pool, Playground, Gym, Garden",0.1150537739632753
+"categorical__Amenities_Pool, Gym, Garden, Clubhouse, Playground",0.11462777664920579
+"categorical__Amenities_Pool, Playground, Garden, Clubhouse, Gym",0.11383187289983063
+categorical__Locality_Locality_154,0.11379849153759694
+categorical__Locality_Locality_327,0.11374111278729124
+"categorical__Amenities_Garden, Playground, Clubhouse, Gym, Pool",0.11354244050124844
+categorical__Locality_Locality_121,0.11352258167050101
+categorical__Locality_Locality_411,0.11351599958189838
+categorical__Locality_Locality_161,0.11312578163526349
+"categorical__Amenities_Garden, Pool, Playground, Gym",0.11306116005470446
+categorical__Locality_Locality_207,0.11297576249619565
+categorical__Locality_Locality_40,0.11290591680109435
+categorical__Locality_Locality_66,0.11242091639088451
+categorical__Locality_Locality_135,0.11238681102648855
+"categorical__Amenities_Garden, Gym",0.11202384819046451
+categorical__Locality_Locality_362,0.11188011987184279
+categorical__Locality_Locality_86,0.11157693571396331
+categorical__Locality_Locality_210,0.11156807167155468
+"categorical__Amenities_Pool, Clubhouse, Playground, Gym, Garden",0.11138650442019128
+categorical__Locality_Locality_217,0.11093135522088914
+categorical__Locality_Locality_282,0.11079916339422707
+categorical__Locality_Locality_114,0.11079103884454575
+"categorical__Amenities_Gym, Pool, Clubhouse, Playground, Garden",0.11066437619454171
+"categorical__Amenities_Gym, Clubhouse, Garden",0.11058795795849884
+categorical__Locality_Locality_421,0.110528846620916
+categorical__Locality_Locality_394,0.11033541222883109
+categorical__Locality_Locality_223,0.11013872570998375
+categorical__Locality_Locality_213,0.1096854359806573
+categorical__Locality_Locality_328,0.10944065285004764
+categorical__Locality_Locality_81,0.10833369335348056
+categorical__Locality_Locality_186,0.10810554254140459
+categorical__Locality_Locality_261,0.10734096097827948
+categorical__Locality_Locality_285,0.10671157375719978
+categorical__Locality_Locality_254,0.10633857962963279
+categorical__Locality_Locality_404,0.10596856408942429
+categorical__Locality_Locality_45,0.10542295351689006
+categorical__Locality_Locality_158,0.10513904145555701
+categorical__Locality_Locality_284,0.1043232126018592
+categorical__Locality_Locality_477,0.10418297196618619
+"categorical__Amenities_Clubhouse, Pool, Gym, Playground",0.10370071530556868
+categorical__Locality_Locality_24,0.10347981763637414
+categorical__Locality_Locality_424,0.1034203897961089
+categorical__Locality_Locality_246,0.10332915851814256
+categorical__Locality_Locality_144,0.10295543083807361
+categorical__Locality_Locality_324,0.10294626081869049
+categorical__Locality_Locality_10,0.10213104789971623
+"categorical__Amenities_Gym, Playground, Clubhouse, Garden, Pool",0.10203845101309894
+categorical__Locality_Locality_475,0.10197080903384977
+"categorical__Amenities_Garden, Clubhouse, Gym, Pool, Playground",0.1018052097858979
+"categorical__Amenities_Clubhouse, Garden, Gym",0.10097673366339144
+categorical__Locality_Locality_262,0.10033439018423683
+"categorical__Amenities_Playground, Garden, Clubhouse, Gym",0.10023733552702431
+categorical__Locality_Locality_228,0.10000936730959431
+"categorical__Amenities_Garden, Playground, Pool",0.09996198474153022
+"categorical__Amenities_Garden, Playground",0.09943728797534793
+categorical__Locality_Locality_193,0.09939347718329362
+categorical__Locality_Locality_73,0.09906230342713676
+"categorical__Amenities_Clubhouse, Garden, Pool",0.0989316573135475
+"categorical__Amenities_Playground, Gym, Clubhouse, Pool",0.09863750688660679
+categorical__Locality_Locality_294,0.09858056642063696
+"categorical__Amenities_Pool, Playground, Clubhouse, Garden",0.09840267360890181
+categorical__Locality_Locality_14,0.09799686651952574
+categorical__Locality_Locality_3,0.09688760087286054
+"categorical__Amenities_Clubhouse, Garden, Pool, Playground",0.09675676835120824
+categorical__Locality_Locality_338,0.0958101362937468
+categorical__Locality_Locality_393,0.09556096346739505
+categorical__Locality_Locality_347,0.0955499809313272
+categorical__Locality_Locality_166,0.09531585446665032
+"categorical__Amenities_Garden, Clubhouse, Gym, Pool",0.09530487858215914
+categorical__Locality_Locality_139,0.0950728395948059
+categorical__Locality_Locality_160,0.09460673167622488
+"categorical__Amenities_Garden, Clubhouse, Playground, Gym",0.0945941710182171
+"categorical__Amenities_Clubhouse, Gym, Garden, Pool, Playground",0.09429665665859915
+categorical__Locality_Locality_76,0.09429476164209694
+categorical__Locality_Locality_30,0.09420501002078137
+categorical__Locality_Locality_408,0.09385477180773172
+"categorical__Amenities_Playground, Garden, Gym, Pool",0.09371822277145883
+categorical__Locality_Locality_13,0.09369167748591961
+categorical__Locality_Locality_187,0.09361307914080921
+"categorical__Amenities_Playground, Clubhouse",0.09351942148952079
+categorical__Locality_Locality_352,0.09340792725315816
+categorical__Locality_Locality_162,0.09304859031835398
+categorical__Locality_Locality_220,0.09269163028899713
+categorical__Locality_Locality_197,0.09235972934722854
+categorical__Locality_Locality_300,0.09229785411955191
+categorical__Locality_Locality_381,0.09196642074295013
+"categorical__Amenities_Pool, Gym, Clubhouse, Playground, Garden",0.09178765293760736
+categorical__Locality_Locality_341,0.09134741233160215
+categorical__Locality_Locality_335,0.09127398338438082
+categorical__Locality_Locality_423,0.0911448019670331
+categorical__Locality_Locality_93,0.09113051684502206
+categorical__Locality_Locality_476,0.0910486701498483
+categorical__Locality_Locality_448,0.08993913187217399
+"categorical__Amenities_Pool, Playground, Clubhouse, Garden, Gym",0.08973588014513131
+"categorical__Amenities_Pool, Garden, Gym, Clubhouse, Playground",0.0892851570343058
+categorical__Locality_Locality_277,0.08922919229722472
+"categorical__Amenities_Playground, Pool, Gym, Clubhouse",0.08854389571605341
+categorical__Locality_Locality_309,0.0880410779329062
+categorical__Locality_Locality_250,0.08790309973674858
+categorical__Locality_Locality_70,0.08760927319490419
+"categorical__Amenities_Clubhouse, Garden, Playground, Gym",0.08747388971033747
+categorical__Locality_Locality_72,0.08738330529911968
+categorical__Locality_Locality_280,0.0872033681820815
+categorical__Locality_Locality_120,0.08677670532804671
+categorical__Locality_Locality_226,0.08664150916657314
+categorical__Locality_Locality_151,0.0863606753186668
+"categorical__Amenities_Garden, Gym, Clubhouse",0.08601289805172348
+categorical__Locality_Locality_140,0.0858284023947694
+"categorical__Amenities_Clubhouse, Gym, Playground, Pool",0.08575970350199669
+categorical__Locality_Locality_387,0.08564653752803923
+categorical__Locality_Locality_101,0.08543696319058837
+"categorical__Amenities_Playground, Pool, Garden, Clubhouse, Gym",0.08533946705874589
+categorical__Locality_Locality_74,0.08526267994618063
+"categorical__Amenities_Playground, Pool, Gym, Clubhouse, Garden",0.08502147466934996
+categorical__Locality_Locality_407,0.0849881164931613
+categorical__Locality_Locality_360,0.0849667794121609
+categorical__Locality_Locality_109,0.0849434173438309
+categorical__Locality_Locality_104,0.08486437537502962
+categorical__Locality_Locality_38,0.08477046173988738
+categorical__Locality_Locality_123,0.08418720895255226
+"categorical__Amenities_Clubhouse, Gym, Pool, Playground, Garden",0.08415642846349371
+categorical__Locality_Locality_298,0.08390808457989464
+categorical__Locality_Locality_143,0.08331929297114424
+categorical__Locality_Locality_165,0.08296407305258725
+categorical__Locality_Locality_482,0.08281763572346842
+"categorical__Amenities_Clubhouse, Playground, Pool",0.0826538017557132
+categorical__Locality_Locality_321,0.08260679784389777
+"categorical__Amenities_Clubhouse, Gym, Garden, Playground",0.0819537111277224
+"categorical__Amenities_Playground, Pool",0.08189031397350019
+categorical__Locality_Locality_299,0.08177695508587868
+categorical__Locality_Locality_302,0.08101611840141251
+categorical__Locality_Locality_319,0.08100068040126089
+categorical__Locality_Locality_234,0.08090549594955376
+categorical__Locality_Locality_35,0.08076228228773766
+categorical__Locality_Locality_467,0.08073594230876288
+"categorical__Amenities_Gym, Clubhouse, Playground, Pool",0.08056881381339485
+categorical__Locality_Locality_422,0.08017988498424976
+categorical__Locality_Locality_177,0.07992198185040447
+categorical__Locality_Locality_379,0.07973134062415328
+categorical__Locality_Locality_12,0.0797122016727103
+categorical__Locality_Locality_310,0.07952436658194156
+categorical__Locality_Locality_69,0.07913767112465565
+categorical__Locality_Locality_304,0.07887651487563763
+categorical__Locality_Locality_28,0.07868605621283739
+categorical__Locality_Locality_245,0.07830835401688824
+"categorical__Amenities_Gym, Garden, Clubhouse, Playground, Pool",0.07811772102627124
+"categorical__Amenities_Pool, Garden, Playground, Gym, Clubhouse",0.07800282992676298
+"categorical__Amenities_Clubhouse, Pool",0.07783810639039478
+categorical__Locality_Locality_272,0.07730827151659853
+categorical__Locality_Locality_84,0.07730579849900729
+categorical__Locality_Locality_460,0.07718164819628999
+"categorical__Amenities_Playground, Garden, Gym, Pool, Clubhouse",0.07652461915753661
+categorical__Locality_Locality_8,0.07625006078194468
+categorical__Locality_Locality_181,0.07614087859220332
+categorical__Locality_Locality_129,0.07553997450915663
+categorical__Locality_Locality_168,0.07483932600863236
+categorical__Locality_Locality_169,0.07462277672231823
+"categorical__Amenities_Garden, Clubhouse, Pool, Playground",0.07459032802207671
+categorical__Locality_Locality_224,0.07451877564712212
+categorical__Locality_Locality_170,0.07429990653083293
+categorical__Locality_Locality_248,0.07424469837215761
+categorical__Locality_Locality_106,0.0739935472150815
+categorical__Locality_Locality_102,0.07357073765431212
+"categorical__Amenities_Garden, Clubhouse, Gym, Playground",0.07321161090411579
+"categorical__Amenities_Playground, Clubhouse, Gym, Pool",0.07270019402383832
+"categorical__Amenities_Pool, Clubhouse, Playground, Gym",0.07261748038914438
+"categorical__Amenities_Clubhouse, Garden, Pool, Gym",0.07130189553915035
+"categorical__Amenities_Pool, Clubhouse, Gym, Garden, Playground",0.07122945983570912
+categorical__Locality_Locality_64,0.07106046397613282
+categorical__Locality_Locality_382,0.07102873073469046
+categorical__Locality_Locality_296,0.07098605056268936
+"categorical__Amenities_Garden, Clubhouse, Playground, Gym, Pool",0.07082033571702437
+categorical__Locality_Locality_366,0.07081368737882217
+categorical__Locality_Locality_365,0.07053976455198553
+"categorical__Amenities_Clubhouse, Playground, Gym, Pool",0.07050408457756856
+categorical__Locality_Locality_1,0.0704722743693948
+"categorical__Amenities_Gym, Clubhouse, Pool, Playground, Garden",0.07042534833328229
+"categorical__Amenities_Pool, Gym, Playground, Garden, Clubhouse",0.07041513953014543
+"categorical__Amenities_Garden, Gym, Pool, Playground, Clubhouse",0.07018531638138478
+categorical__Locality_Locality_150,0.06967807857935804
+categorical__Locality_Locality_227,0.06947251441521375
+categorical__Locality_Locality_92,0.0689697341206042
+categorical__Locality_Locality_395,0.06886753860194929
+"categorical__Amenities_Pool, Gym, Playground, Clubhouse, Garden",0.06869678678895105
+categorical__Locality_Locality_194,0.0686232922827676
+categorical__Locality_Locality_474,0.06842880100313344
+categorical__Locality_Locality_190,0.06805158216180707
+"categorical__Amenities_Clubhouse, Pool, Playground, Garden, Gym",0.06792360135494342
+categorical__Locality_Locality_39,0.0671030062748964
+categorical__Locality_Locality_219,0.0670168884880863
+"categorical__Amenities_Playground, Pool, Clubhouse, Garden",0.0670017344296327
+categorical__Locality_Locality_202,0.06693709532649995
+categorical__Locality_Locality_498,0.0668958414188523
+categorical__Locality_Locality_153,0.06688621480315748
+"categorical__Amenities_Garden, Gym, Playground",0.06675205981544757
+"categorical__Amenities_Gym, Pool, Playground, Clubhouse, Garden",0.0667129375474172
+categorical__Locality_Locality_163,0.06644958400437863
+"categorical__Amenities_Gym, Garden, Clubhouse",0.06605104294147819
+categorical__Locality_Locality_499,0.06589135690969107
+categorical__Locality_Locality_148,0.06587093500214906
+categorical__Locality_Locality_6,0.065817930471946
+categorical__Locality_Locality_15,0.06535804044909416
+"categorical__Amenities_Clubhouse, Garden, Pool, Gym, Playground",0.06522617866108449
+"categorical__Amenities_Playground, Gym, Pool, Garden",0.06522495618735
+categorical__Locality_Locality_42,0.06512327878368816
+"categorical__Amenities_Pool, Garden",0.06496997152282502
+"categorical__Amenities_Garden, Playground, Pool, Gym, Clubhouse",0.06490555878266115
+"categorical__Amenities_Gym, Garden, Playground, Pool, Clubhouse",0.06480680738833632
+categorical__Locality_Locality_57,0.0646066645465551
+"categorical__Amenities_Garden, Playground, Gym, Clubhouse",0.06385918339817777
+categorical__Locality_Locality_91,0.06369896727747643
+"categorical__Amenities_Playground, Clubhouse, Pool, Garden, Gym",0.06340418166913708
+"categorical__Amenities_Playground, Gym, Pool, Clubhouse",0.06332472557089648
+"categorical__Amenities_Garden, Pool, Playground, Clubhouse",0.06318973759576894
+"categorical__Amenities_Pool, Garden, Clubhouse, Playground",0.06296648483605537
+"categorical__Amenities_Playground, Pool, Clubhouse, Gym, Garden",0.06275498825748393
+categorical__Locality_Locality_82,0.06263890220811852
+categorical__Locality_Locality_253,0.06256710922118935
+"categorical__Amenities_Clubhouse, Playground, Pool, Garden, Gym",0.062453718984484576
+categorical__Locality_Locality_397,0.06228564940381201
+categorical__Locality_Locality_308,0.062188247846927
+categorical__Locality_Locality_453,0.06214623913930353
+"categorical__Amenities_Garden, Pool, Clubhouse, Gym",0.062059953188954034
+"categorical__Amenities_Playground, Pool, Garden, Gym, Clubhouse",0.061996901012883035
+categorical__Locality_Locality_195,0.0619065449060878
+categorical__Locality_Locality_269,0.06170356491401016
+categorical__Locality_Locality_401,0.06142921774318805
+categorical__Locality_Locality_159,0.06133175157101053
+"categorical__Amenities_Gym, Playground, Clubhouse, Garden",0.0612494358502421
+"categorical__Amenities_Pool, Gym, Playground, Clubhouse",0.06100125138855665
+categorical__Locality_Locality_138,0.06078567846863439
+categorical__Locality_Locality_434,0.060769269554166054
+categorical__Locality_Locality_71,0.06067127547035001
+categorical__Locality_Locality_354,0.06063010520594474
+categorical__Locality_Locality_336,0.06059970794067132
+categorical__Locality_Locality_225,0.060496593055073926
+categorical__Locality_Locality_488,0.060397651368913195
+categorical__Locality_Locality_275,0.05974941084986567
+categorical__Locality_Locality_349,0.05925395093884109
+categorical__Locality_Locality_96,0.05918934164652171
+"categorical__Amenities_Garden, Gym, Playground, Clubhouse",0.05896071587919374
+"categorical__Amenities_Playground, Gym, Pool, Clubhouse, Garden",0.058939750841689
+categorical__Locality_Locality_464,0.058308971836531845
+"categorical__Amenities_Garden, Playground, Clubhouse, Gym",0.05798757395769323
+categorical__Locality_Locality_266,0.05790947385630518
+categorical__Locality_Locality_53,0.05781705349327026
+categorical__Locality_Locality_243,0.05769406338029963
+categorical__Locality_Locality_437,0.05755489567099042
+"categorical__Amenities_Pool, Clubhouse, Garden, Gym",0.057359776036332986
+"categorical__Amenities_Playground, Gym, Clubhouse",0.057122322341609924
+"categorical__Amenities_Pool, Garden, Clubhouse, Playground, Gym",0.05706359269433302
+categorical__Locality_Locality_260,0.05706247411713913
+"categorical__Amenities_Garden, Playground, Pool, Clubhouse, Gym",0.05675515169113228
+categorical__Locality_Locality_288,0.05668385875719884
+"categorical__Amenities_Gym, Clubhouse",0.0555706852762302
+categorical__Locality_Locality_305,0.05553532181313216
+"categorical__Amenities_Pool, Garden, Playground",0.05551323033729855
+categorical__Locality_Locality_265,0.0552204912160674
+categorical__Locality_Locality_208,0.05515930139603085
+categorical__Locality_Locality_105,0.05406249706093278
+"categorical__Amenities_Playground, Gym, Garden, Clubhouse",0.054060551891577366
+"categorical__Amenities_Gym, Playground, Garden, Pool, Clubhouse",0.053853232689585556
+"categorical__Amenities_Playground, Clubhouse, Gym, Garden, Pool",0.05383489705045531
+"categorical__Amenities_Garden, Gym, Playground, Pool",0.05339805222823722
+categorical__Locality_Locality_479,0.053134974528650285
+"categorical__Amenities_Clubhouse, Playground, Gym, Garden",0.05272883352503332
+"categorical__Amenities_Garden, Clubhouse, Pool, Playground, Gym",0.05267952270104943
+"categorical__Amenities_Pool, Gym",0.052614747714775846
+categorical__Locality_Locality_315,0.05235692550252357
+categorical__Locality_Locality_270,0.05231123432932807
+categorical__Locality_Locality_65,0.05175618753718705
+categorical__Locality_Locality_295,0.05135165028657379
+"categorical__Amenities_Clubhouse, Garden, Pool, Playground, Gym",0.05126240888004969
+categorical__Locality_Locality_364,0.05115118032538568
+"categorical__Amenities_Garden, Pool",0.05110437254913134
+"categorical__Amenities_Pool, Garden, Clubhouse, Gym",0.05086253014509527
+"categorical__Amenities_Playground, Pool, Clubhouse, Gym",0.05084272721635465
+"categorical__Amenities_Gym, Pool, Clubhouse, Garden, Playground",0.05057380958781081
+"categorical__Amenities_Garden, Playground, Clubhouse",0.050221434938625006
+"categorical__Amenities_Pool, Garden, Clubhouse",0.04983786841957207
+categorical__Locality_Locality_89,0.04980950384599781
+categorical__Locality_Locality_326,0.04971573836080548
+categorical__Locality_Locality_276,0.049680040919218946
+categorical__Locality_Locality_131,0.04966019016359033
+"categorical__Amenities_Clubhouse, Pool, Garden",0.04963767130869946
+categorical__Locality_Locality_377,0.048685411369114175
+"categorical__Amenities_Gym, Pool, Garden, Playground",0.048456705676972286
+"categorical__Amenities_Clubhouse, Garden, Playground",0.048170195499179974
+"categorical__Amenities_Clubhouse, Gym, Pool",0.04753655316291736
+"categorical__Amenities_Playground, Clubhouse, Garden, Pool",0.047388982366768626
+categorical__Locality_Locality_122,0.047357652227805844
+"categorical__Amenities_Garden, Pool, Gym",0.04729160150649176
+"categorical__Amenities_Garden, Gym, Clubhouse, Pool",0.04683915007730044
+"categorical__Amenities_Playground, Garden, Pool, Clubhouse",0.04660529893753595
+"categorical__Amenities_Garden, Playground, Clubhouse, Pool",0.04657785852249634
+categorical__Locality_Locality_322,0.04651685871163863
+"categorical__Amenities_Garden, Gym, Pool",0.046242530974905625
+categorical__Locality_Locality_427,0.04600091641983014
+"categorical__Amenities_Pool, Playground, Garden, Gym",0.04594515657406358
+categorical__Locality_Locality_27,0.04556432251627436
+"categorical__Amenities_Gym, Pool, Clubhouse",0.04555119790869656
+categorical__Locality_Locality_438,0.04551241553266473
+categorical__Locality_Locality_373,0.045077762638985774
+categorical__Locality_Locality_465,0.04449613330574579
+"categorical__Amenities_Gym, Pool, Clubhouse, Playground",0.044470615190655205
+"categorical__Amenities_Pool, Gym, Playground",0.04440686957813579
+categorical__Locality_Locality_33,0.04370329846276958
+categorical__Locality_Locality_178,0.04342681176904225
+categorical__Locality_Locality_179,0.043173142769984595
+categorical__Locality_Locality_43,0.042986578744280725
+"categorical__Amenities_Gym, Clubhouse, Garden, Pool",0.04293587201010246
+categorical__Locality_Locality_450,0.04285143520067929
+categorical__Locality_Locality_391,0.042846010021331024
+categorical__Locality_Locality_454,0.04284249942048853
+"categorical__Amenities_Playground, Clubhouse, Gym",0.04235885297697022
+"categorical__Amenities_Playground, Pool, Gym",0.04225237734041611
+categorical__Locality_Locality_390,0.04208460454587825
+categorical__Locality_Locality_290,0.042008252700928214
+"categorical__Amenities_Clubhouse, Playground, Garden",0.041956532800523465
+categorical__Locality_Locality_264,0.041946114335647454
+"categorical__Amenities_Gym, Pool, Playground",0.04193264701398276
+categorical__Locality_Locality_97,0.041822602414727364
+"categorical__Amenities_Clubhouse, Gym, Playground",0.04165281480543746
+categorical__Locality_Locality_481,0.0412954534680108
+categorical__Locality_Locality_235,0.04118950629061859
+"categorical__Amenities_Clubhouse, Playground, Pool, Gym",0.04079654132029715
+"categorical__Amenities_Garden, Pool, Playground",0.04066059116111402
+categorical__Locality_Locality_201,0.04056044242375557
+"categorical__Amenities_Garden, Gym, Pool, Clubhouse, Playground",0.04048966621646309
+categorical__Locality_Locality_439,0.04037474736873525
+categorical__Locality_Locality_238,0.04014483593195466
+"categorical__Amenities_Garden, Pool, Clubhouse, Playground, Gym",0.04008861911304043
+"categorical__Amenities_Pool, Clubhouse, Playground, Garden",0.04004357449078164
+categorical__Locality_Locality_236,0.0399993890296824
+categorical__Locality_Locality_371,0.03982681302384778
+categorical__Locality_Locality_348,0.039587425196995436
+categorical__Locality_Locality_455,0.03912835240454161
+categorical__Locality_Locality_492,0.03869494471813151
+categorical__City_Guwahati,0.03818951581175726
+"categorical__Amenities_Playground, Gym, Garden, Pool, Clubhouse",0.03806947452086974
+categorical__Locality_Locality_374,0.03802598912847631
+categorical__Locality_Locality_380,0.03774410400291051
+"categorical__Amenities_Gym, Pool, Garden, Clubhouse, Playground",0.03768386900701287
+"categorical__Amenities_Garden, Pool, Gym, Playground",0.037668300231896275
+categorical__Locality_Locality_485,0.03732001570611623
+categorical__Locality_Locality_198,0.03701984053288789
+"categorical__Amenities_Garden, Playground, Pool, Clubhouse",0.03696929652551047
+categorical__Locality_Locality_134,0.03680562327777064
+categorical__Locality_Locality_483,0.03669781111522914
+"categorical__Amenities_Garden, Pool, Gym, Clubhouse, Playground",0.03664405333892682
+categorical__Locality_Locality_55,0.03648024499342515
+categorical__City_Pune,0.036462812332581605
+categorical__Locality_Locality_486,0.03633526576631781
+"categorical__Amenities_Playground, Clubhouse, Garden",0.03605715942139027
+categorical__Locality_Locality_116,0.0358412444066563
+"categorical__Amenities_Garden, Pool, Playground, Gym, Clubhouse",0.03564947679861945
+categorical__Locality_Locality_77,0.035448361612739086
+"categorical__Amenities_Pool, Playground, Gym, Garden, Clubhouse",0.03514519718947411
+categorical__Locality_Locality_240,0.034999266289891626
+"categorical__Amenities_Gym, Playground, Garden, Clubhouse, Pool",0.034965754927637226
+"categorical__Amenities_Playground, Garden",0.034921405875078644
+categorical__City_Patna,0.034737435662166645
+categorical__State_Bihar,0.034737435662166645
+"categorical__Amenities_Playground, Gym, Garden, Clubhouse, Pool",0.03468206561337276
+categorical__City_Dehradun,0.034363800297469195
+categorical__Locality_Locality_426,0.03431375859048597
+"categorical__Amenities_Pool, Playground, Gym, Clubhouse",0.034164500107197265
+categorical__Locality_Locality_5,0.03405988275315112
+categorical__Locality_Locality_196,0.03341195593160498
+"categorical__Amenities_Gym, Clubhouse, Garden, Playground, Pool",0.03333070814942561
+categorical__Locality_Locality_267,0.03288839898815574
+categorical__Locality_Locality_458,0.032569007901290484
+categorical__Locality_Locality_419,0.03239195362149329
+categorical__Locality_Locality_152,0.03177805729802119
+"categorical__Amenities_Clubhouse, Gym, Pool, Playground",0.03160080120018086
+categorical__Locality_Locality_59,0.03143882887204462
+categorical__Locality_Locality_137,0.03137088570180208
+categorical__Locality_Locality_493,0.03120280045597936
+categorical__Amenities_Clubhouse,0.03105984943449211
+categorical__Locality_Locality_472,0.030981918834344542
+categorical__Locality_Locality_141,0.030841088778518422
+"categorical__Amenities_Gym, Garden, Clubhouse, Pool",0.03074299592390265
+categorical__Locality_Locality_231,0.030291172108006113
+categorical__Locality_Locality_218,0.03028429930258094
+"categorical__Amenities_Playground, Garden, Pool",0.03013730815254208
+categorical__City_Gurgaon,0.03007935310724343
+categorical__Locality_Locality_205,0.029945448457269642
+"categorical__Amenities_Gym, Pool, Garden",0.029897000464124614
+"categorical__Amenities_Garden, Pool, Gym, Playground, Clubhouse",0.029807055686555374
+categorical__Locality_Locality_446,0.02963965094400972
+categorical__Locality_Locality_173,0.029585550743051418
+categorical__Locality_Locality_214,0.029391147502369985
+categorical__Locality_Locality_19,0.02923093511491013
+categorical__Locality_Locality_457,0.02900697433781562
+categorical__Locality_Locality_440,0.028872187153599217
+categorical__Locality_Locality_182,0.028751200200909453
+"categorical__Amenities_Playground, Pool, Gym, Garden",0.028653723402073967
+categorical__Locality_Locality_255,0.02864022043629458
+"categorical__Amenities_Clubhouse, Playground",0.02824285354333602
+"categorical__Amenities_Pool, Clubhouse, Playground, Garden, Gym",0.028182253790587662
+"categorical__Amenities_Clubhouse, Playground, Gym, Pool, Garden",0.02811144342492936
+"categorical__Amenities_Playground, Pool, Gym, Garden, Clubhouse",0.027989998926158163
+"categorical__Amenities_Playground, Clubhouse, Gym, Garden",0.027843853844094674
+categorical__Locality_Locality_176,0.02782376890691395
+"categorical__Amenities_Pool, Garden, Playground, Clubhouse, Gym",0.027638513795416413
+categorical__Locality_Locality_431,0.02758367469142106
+"categorical__Amenities_Playground, Clubhouse, Garden, Gym",0.027111636363769884
+categorical__Locality_Locality_378,0.027074403087000785
+"categorical__Amenities_Gym, Garden, Pool, Clubhouse",0.027071157841873687
+categorical__State_Gujarat,0.027045622411732008
+"categorical__Amenities_Gym, Clubhouse, Pool, Garden, Playground",0.026921454120755535
+categorical__City_Silchar,0.026722835148967984
+"categorical__Amenities_Clubhouse, Playground, Gym",0.02659401573190898
+categorical__Locality_Locality_420,0.02653292188195582
+categorical__City_Haridwar,0.026131587635538658
+"categorical__Amenities_Clubhouse, Pool, Playground",0.02585008460738078
+"categorical__Amenities_Playground, Gym, Clubhouse, Garden",0.02583731836451005
+"categorical__Amenities_Clubhouse, Pool, Garden, Gym, Playground",0.02580560983084285
+categorical__Locality_Locality_29,0.025557756554467195
+"categorical__Amenities_Clubhouse, Gym, Playground, Garden, Pool",0.025509487716760294
+"categorical__Amenities_Gym, Clubhouse, Pool, Playground",0.02532100904468805
+"categorical__Amenities_Garden, Clubhouse, Gym",0.025277533826445417
+categorical__Amenities_Pool,0.02487642279209336
+"categorical__Amenities_Playground, Garden, Clubhouse, Pool",0.024712289973070737
+"categorical__Amenities_Gym, Pool, Playground, Garden, Clubhouse",0.024670962124836576
+categorical__Amenities_Gym,0.02423817057513009
+"categorical__Amenities_Gym, Garden, Pool",0.024195426294249523
+"categorical__Amenities_Garden, Pool, Gym, Clubhouse",0.024184623030760653
+categorical__Locality_Locality_119,0.024132745695969307
+"categorical__Amenities_Clubhouse, Garden, Playground, Pool, Gym",0.023862386979226102
+categorical__Locality_Locality_490,0.02381563571384451
+categorical__State_Rajasthan,0.023619479217474742
+categorical__City_Jodhpur,0.023619479217474742
+"categorical__Amenities_Garden, Playground, Gym",0.023500795825062672
+categorical__Locality_Locality_22,0.023458095129084016
+categorical__Locality_Locality_291,0.02338682375952995
+"categorical__Amenities_Gym, Playground, Garden",0.023265132393394717
+categorical__Locality_Locality_303,0.023237686954537633
+categorical__Locality_Locality_389,0.023149005539736638
+"categorical__Amenities_Gym, Pool",0.023139914853343702
+"categorical__Amenities_Gym, Playground, Pool, Clubhouse",0.02310044791639224
+"categorical__Amenities_Gym, Clubhouse, Pool",0.023091477568695732
+categorical__Locality_Locality_297,0.022799131237339055
+categorical__Locality_Locality_358,0.02276710849179629
+categorical__Locality_Locality_180,0.02263339326302172
+categorical__City_Indore,0.02227260619379886
+categorical__Locality_Locality_289,0.02192661694972994
+categorical__Facing_East,0.02178306661265759
+categorical__Locality_Locality_432,0.02161077290828321
+categorical__Locality_Locality_52,0.021594127699029336
+categorical__Locality_Locality_189,0.02120310427406288
+categorical__Locality_Locality_346,0.021195503704279875
+categorical__Locality_Locality_241,0.021015756614348496
+categorical__Locality_Locality_311,0.020901416563380223
+categorical__Locality_Locality_156,0.020900939466028765
+categorical__Locality_Locality_61,0.020794923913008082
+"categorical__Amenities_Clubhouse, Playground, Garden, Pool, Gym",0.020417967946917564
+categorical__City_Bangalore,0.020215113823692718
+"categorical__Amenities_Pool, Gym, Clubhouse",0.019408196133241518
+categorical__City_Mumbai,0.01921160150619184
+"categorical__Amenities_Pool, Clubhouse, Gym, Playground, Garden",0.019052985865177195
+categorical__Locality_Locality_58,0.01902777170881681
+categorical__Owner_Type_Builder,0.01875630941291155
+categorical__State_Chhattisgarh,0.01869525766979494
+"categorical__Amenities_Clubhouse, Gym, Pool, Garden, Playground",0.018625452632809257
+"categorical__Amenities_Pool, Gym, Garden",0.01839628745397968
+categorical__Locality_Locality_21,0.017912151986852545
+"categorical__Amenities_Pool, Playground, Gym",0.017902858029266975
+categorical__City_Kolkata,0.017893792760450264
+categorical__City_Bhopal,0.01751526478755013
+categorical__Locality_Locality_414,0.01750295578476858
+categorical__Locality_Locality_286,0.017408058996998467
+categorical__Owner_Type_Broker,0.017299999829747607
+categorical__State_Maharashtra,0.01725121082638688
+categorical__Locality_Locality_372,0.01717891031275923
+categorical__State_Haryana,0.01671618560996303
+categorical__City_Ahmedabad,0.016664843394165012
+categorical__Locality_Locality_222,0.016451182395392214
+"categorical__Amenities_Playground, Pool, Garden",0.016329876230870493
+"categorical__Amenities_Clubhouse, Playground, Garden, Gym",0.01612913997034541
+"categorical__Amenities_Pool, Gym, Garden, Playground, Clubhouse",0.01600532182103749
+"categorical__Amenities_Pool, Garden, Gym, Playground, Clubhouse",0.015718104028688486
+categorical__City_Chennai,0.015332940408353639
+categorical__Locality_Locality_23,0.01521323433149394
+categorical__Locality_Locality_215,0.015020272388252588
+categorical__Locality_Locality_334,0.015000465095829283
+categorical__Locality_Locality_436,0.014914963203827786
+"categorical__Amenities_Garden, Gym, Clubhouse, Playground",0.014835137408766968
+"categorical__Amenities_Clubhouse, Gym, Playground, Garden",0.01480849970543764
+categorical__Locality_Locality_271,0.014705698003457838
+categorical__Locality_Locality_351,0.014265657324678929
+"categorical__Amenities_Gym, Playground, Pool, Garden, Clubhouse",0.014251129790234306
+categorical__State_West Bengal,0.01401189389084835
+categorical__Locality_Locality_184,0.013970466846375608
+"categorical__Amenities_Pool, Playground, Gym, Garden",0.01375675320098945
+categorical__State_Karnataka,0.013741041855689567
+"categorical__Amenities_Gym, Playground, Clubhouse, Pool, Garden",0.013365109119560433
+categorical__City_Faridabad,0.013363167497282204
+categorical__Locality_Locality_11,0.01300910921722872
+"categorical__Amenities_Clubhouse, Pool, Gym, Playground, Garden",0.012854527945837526
+categorical__Facing_West,0.012679864739024507
+categorical__Locality_Locality_442,0.01265674147433758
+"categorical__Amenities_Playground, Garden, Gym, Clubhouse, Pool",0.012547603795959086
+categorical__Locality_Locality_216,0.012333912357686695
+categorical__City_Coimbatore,0.012324458336518029
+categorical__Locality_Locality_18,0.0120058310900892
+categorical__Locality_Locality_417,0.011961332777201936
+"categorical__Amenities_Playground, Gym, Clubhouse, Pool, Garden",0.011958502170461514
+"categorical__Amenities_Playground, Clubhouse, Pool",0.011936396719514472
+categorical__Locality_Locality_32,0.011865366069916415
+categorical__Property_Type_Apartment,0.011863790596398003
+categorical__City_Ranchi,0.011661838615354927
+"categorical__Amenities_Clubhouse, Playground, Garden, Gym, Pool",0.011492628827833095
+categorical__State_Assam,0.011466680662790444
+categorical__Locality_Locality_406,0.01131694679301936
+numeric__Hospital_Density_Score,0.010863823233649204
+categorical__City_Raipur,0.010858741772662288
+categorical__Locality_Locality_287,0.010849934200586869
+categorical__Furnished_Status_Furnished,0.010818673202743543
+"categorical__Amenities_Garden, Pool, Clubhouse, Gym, Playground",0.010530003857527344
+categorical__City_Surat,0.010380779017560713
+"categorical__Amenities_Gym, Garden, Playground, Pool",0.010289872203620837
+categorical__State_Kerala,0.010284198891410103
+categorical__Locality_Locality_244,0.010259109390317073
+categorical__Locality_Locality_94,0.010023500219697735
+categorical__Facing_North,0.00998059801430697
+categorical__Locality_Locality_405,0.009874202245958886
+categorical__Locality_Locality_385,0.009762890954088714
+"categorical__Amenities_Clubhouse, Gym",0.009671633120870202
+"categorical__Amenities_Clubhouse, Garden, Gym, Pool, Playground",0.009670751596206228
+categorical__Locality_Locality_242,0.009295984277286505
+categorical__Furnished_Status_Semi-furnished,0.009265082187409984
+"categorical__Amenities_Gym, Playground",0.00922134227955477
+numeric__Nearby_Hospitals,0.00901667067386684
+"categorical__Amenities_Pool, Clubhouse, Playground",0.00886022258023822
+"categorical__Amenities_Gym, Garden, Pool, Playground",0.008734549252537497
+categorical__Public_Transport_Accessibility_High,0.0086402900688206
+categorical__Property_Type_Villa,0.00856782884265749
+"categorical__Amenities_Garden, Gym, Clubhouse, Pool, Playground",0.00843286719242061
+"categorical__Amenities_Clubhouse, Pool, Gym",0.00830754247679739
+"categorical__Amenities_Gym, Playground, Pool",0.008266325629053457
+categorical__Locality_Locality_36,0.008245189962281468
+categorical__State_Uttarakhand,0.008232212661928829
+categorical__City_Noida,0.008109927315964145
+categorical__Locality_Locality_192,0.008078638779723908
+categorical__City_Bilaspur,0.007836515897135797
+categorical__City_Lucknow,0.007754987529740954
+categorical__Locality_Locality_108,0.007691646337163597
+categorical__Locality_Locality_188,0.007641971488152994
+categorical__Locality_Locality_230,0.007387684179587355
+"categorical__Amenities_Clubhouse, Garden, Gym, Pool",0.007373354802574808
+categorical__State_Telangana,0.00736329425012917
+categorical__State_Punjab,0.007320327816392375
+categorical__City_Amritsar,0.007320327816392375
+categorical__Locality_Locality_211,0.007231062944114521
+numeric__School_Density_Score,0.007175712693486137
+categorical__City_Jamshedpur,0.006864008238850852
+numeric__Nearby_Schools,0.006649789540059756
+"categorical__Amenities_Gym, Garden",0.006637165307882098
+categorical__City_Mysore,0.006474071968003314
+categorical__Locality_Locality_68,0.006430209247467217
+categorical__City_Trivandrum,0.006174035935598883
+categorical__City_Hyderabad,0.00591298723836354
+categorical__Public_Transport_Accessibility_Medium,0.005891220543877975
+categorical__Property_Type_Independent House,0.005676719895394238
+categorical__Locality_Locality_461,0.005583170746554096
+"categorical__Amenities_Pool, Garden, Clubhouse, Gym, Playground",0.005573965516647905
+numeric__Parking_Space_Binary,0.005285531314418564
+categorical__Locality_Locality_78,0.0052668250818582955
+"categorical__Amenities_Pool, Playground, Garden, Clubhouse",0.005138582602518752
+categorical__Public_Transport_Accessibility_Low,0.00512982766684545
+categorical__Locality_Locality_456,0.005096977149793871
+"categorical__Amenities_Playground, Garden, Pool, Gym",0.004986996621974173
+categorical__State_Jharkhand,0.004797830376501982
+categorical__State_Madhya Pradesh,0.004757341406248151
+"categorical__Amenities_Gym, Garden, Clubhouse, Playground",0.0047557814148424995
+categorical__Locality_Locality_204,0.00473257757866532
+"categorical__Amenities_Pool, Clubhouse, Garden",0.004686251369701211
+"categorical__Amenities_Playground, Clubhouse, Gym, Pool, Garden",0.004567136345034144
+numeric__Total_Floors,0.004306691090809277
+categorical__City_Kochi,0.004110162955810751
+categorical__City_Durgapur,0.00388189886960772
+categorical__Locality_Locality_50,0.003853616851238973
+"categorical__Amenities_Pool, Playground, Clubhouse",0.003848102862581638
+categorical__Amenities_Playground,0.0037879443184113534
+"categorical__Amenities_Clubhouse, Garden",0.0037310500436417908
+categorical__Locality_Locality_172,0.003727214409002141
+categorical__Locality_Locality_232,0.003438823106111349
+categorical__Facing_South,0.0032581542821222167
+categorical__State_Tamil Nadu,0.003008482071832444
+"categorical__Amenities_Garden, Clubhouse, Gym, Playground, Pool",0.002955303727688039
+categorical__Locality_Locality_418,0.0029466023351434703
+"categorical__Amenities_Garden, Clubhouse",0.0029402934112105848
+numeric__Size_in_SqFt,0.002849599671073656
+categorical__Locality_Locality_283,0.0027688842406520587
+categorical__Locality_Locality_9,0.002426873406821323
+categorical__Amenities_Garden,0.0023848494263069833
+categorical__Locality_Locality_7,0.002366806478929313
+"categorical__Amenities_Playground, Garden, Pool, Gym, Clubhouse",0.002279445530738806
+categorical__Locality_Locality_273,0.0022764668512084045
+categorical__Locality_Locality_452,0.0022360239892398
+"categorical__Amenities_Gym, Clubhouse, Pool, Garden",0.0016930522729371306
+"categorical__Amenities_Pool, Clubhouse",0.0016370779923919727
+categorical__Availability_Status_Under_Construction,0.0015705443370338417
+categorical__Locality_Locality_17,0.001489275998794956
+categorical__City_Warangal,0.0014503070117657202
+categorical__Locality_Locality_67,0.0013404446142134547
+"categorical__Amenities_Pool, Playground, Clubhouse, Gym",0.001265497858064627
+categorical__Locality_Locality_323,0.0012570426388394398
+numeric__BHK,0.00110608234347408
+categorical__Locality_Locality_191,0.0010969519456279684
+"categorical__Amenities_Pool, Playground, Garden, Gym, Clubhouse",0.0009928911642038967
+categorical__State_Delhi,0.0009906787586091317
+categorical__City_Dwarka,0.0009906787586091317
+categorical__Locality_Locality_330,0.000955771708783442
+categorical__Owner_Type_Owner,0.0009244485582347342
+categorical__State_Andhra Pradesh,0.0008485244678037001
+categorical__City_Vishakhapatnam,0.0008485244678037001
+categorical__Furnished_Status_Unfurnished,0.0008271671261403796
+categorical__Availability_Status_Ready_to_Move,0.0008102138048477256
+numeric__Security_Binary,0.0007688403180931563
+"categorical__Amenities_Playground, Pool, Clubhouse",0.0007527979403390495
+categorical__Locality_Locality_221,0.0006363949961933514
+categorical__Locality_Locality_126,0.0005260643985351109
+categorical__Locality_Locality_237,0.00044432068784575583
+categorical__State_Uttar Pradesh,0.0003549397862249161
+numeric__Floor_No,0.0003355100912533812
+categorical__Locality_Locality_451,7.047694211046125e-05
+categorical__Locality_Locality_25,4.323713286215434e-05
