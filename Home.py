@@ -301,4 +301,55 @@ st.caption(
     "property-level resale outcome."
 )
 
+st.divider()
+section_header(
+    "Project structure",
+    "Explore the main application, analysis, modelling, data and documentation folders.",
+)
+
+with st.expander("View project structure", expanded=False):
+    st.code(
+        """Real-Estate-Analytics-and-Forecasting/
+├── app.py
+├── pages/
+│   ├── 01_Executive_Overview.py
+│   ├── 02_Market_Insights.py
+│   ├── 03_Property_Estimator.py
+│   ├── 04_Listing_Explorer.py
+│   ├── 05_Forecast_Performance.py
+│   └── 06_Methodology_and_Data.py
+├── notebooks/
+│   ├── 01_data_cleaning_and_eda_v50.ipynb
+│   └── 02_model_selection_and_evaluation_v50.ipynb
+├── scripts/
+│   ├── run_eda.py
+│   ├── merge_nhb_hpi.py
+│   ├── train.py
+│   └── test_hpi_forecast.py
+├── src/
+│   ├── config.py
+│   ├── data.py
+│   ├── modeling.py
+│   └── hpi_forecast.py
+├── utils/
+│   ├── helper.py
+│   ├── sidebar.py
+│   ├── theme.py
+│   └── data_manager.py
+├── data/
+│   ├── india_housing_prices.csv
+│   ├── nhb/
+│   └── processed/
+├── artifacts/
+├── reports/
+├── docs/
+├── requirements.txt
+└── .gitignore""",
+        language="text",
+    )
+    st.caption(
+        "The data, artifacts and reports folders contain source inputs and generated outputs; "
+        "their contents may vary depending on the local workspace and training run."
+    )
+
 st.caption("Use the sidebar to switch pages at any time. For methodology, sources and assumptions, open Methodology & Data.")
