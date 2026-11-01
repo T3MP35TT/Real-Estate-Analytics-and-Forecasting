@@ -28,3 +28,9 @@ Thumbs.db
 # Logs and temporary files
 *.log
 *.tmp
+
+# Local MLflow tracking files
+mlflow.db
+mlruns/
+**/mlruns/
+mlflow_test.txt
